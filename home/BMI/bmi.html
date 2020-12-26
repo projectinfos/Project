@@ -1,0 +1,231 @@
+<!-- BMI -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/logoicon.ico" />
+  <title>BMI</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="bmi.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Oxygen:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Start First Section -->
+  <!-- Logo part -->
+  <header class="logoPart">
+    <div class="adress">
+      <p>35 Barnard St. Brooklyn,<br> NY 10036, United States</p>
+    </div>
+    <h1 class="titleName">
+      <a href="D:\templates\Project 2020\home/home.html"><span>we</span><span
+          style="color: #ff4345;">C</span><span>are</span></a>
+    </h1>
+    <div class="contact">
+      <span>
+        (047) 310-9590
+      </span>
+      <i class="fa fa-facebook" id="pad"></i>
+      <i class="fa fa-twitter"></i>
+    </div>
+  </header>
+  <!-- Navbar part-->
+  <section class="navbarPart">
+    <nav class="navbar justify-content-center navbar-expand-sm navbarList">
+      <button id="navbartoggler" class="navbar-toggler menuStyle" type="button" data-toggle="collapse"
+        data-target="#nav">
+        <span><i class="fa fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="nav">
+        <ul class="navbar-nav text-center " style="line-height: 19px;" id="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="D:\templates\Project 2020\home/home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="D:\templates\Project 2020\home\analysis/analysis.html">Analysis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bmi.html">BMI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactus">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <!-- Bmi calculator -->
+  <!-- معلومات عن ال BMI -->
+  <section class="info-bmi">
+    <div class="image-bmi">
+      <img src="img/1.jpg" class="imBmi" />
+    </div>
+    <!-- what is Bmi-->
+    <div class="what-is-Bmi">
+      <p>
+      <h4>What is BMI?</h4>
+      BMI is a number calculated from a person’s weight and height.
+      BMI provides a fairly reliable indicator of body fatness for most people and is used to screen for weight
+      categories that may lead to health problems.
+      </p>
+    </div>
+  </section>
+  <!-- الفورم بتاعه ال BMI-->
+  <section class="bmi-calc">
+    <form class="form-bmi">
+      <label class="enter">Enter your age</label>
+      <input class="input" type="number" name="Age" min=3 max=100 placeholder="Age"><br>
+
+      <label class="enter">Enter your height</label>
+      <input class="input" type="number" name="height" min=0 max=200 placeholder="Height"><br>
+
+      <label class="enter">Enter your weight</label>
+      <input class="input" type="number" name="weight" min=0 max=200 placeholder="Weight"><br>
+
+      <br>
+      <button class="submit1">submit</button>
+      <center>
+        <span class="result-bmi">
+          <p class="your-Bmi"> Your BMI = </p>
+          <div class="the-result"> 20.20 </div>
+        </span>
+      </center>
+
+    </form>
+
+  </section>
+  <!-- table of values-->
+  <section class="values-of-bmi">
+    <center>
+      <table class="values">
+        <tr>
+          <th> BMI</th>
+          <th> Weight Status</th>
+        </tr>
+        <tr>
+          <td> Below 18.5</td>
+          <td> Underweight</td>
+        </tr>
+        <tr>
+          <td>18.5 – 24.9 </td>
+          <td> Normal or Healthy Weight</td>
+        </tr>
+        <tr>
+          <td>25.0 – 29.9 </td>
+          <td> Overweight</td>
+        </tr>
+        <tr>
+          <td>30.0 and Above </td>
+          <td>Obese</td>
+        </tr>
+      </table>
+    </center><br><br>
+
+  </section>
+  <!--Understanding your BMI result-->
+  <section class="Explain-bmi">
+    <div class="Explain">
+      <p class="up-explain">Understanding your BMI result</p>
+      <p class="header-explain">Underweight</p>
+      <p class="pragraph-explain">
+        Being underweight could be a sign you're not eating enough or you may be ill. If you're underweight, a GP can
+        help.
+      </p>
+      <p class="header-explain">
+        Healthy weight
+      </p>
+      <p class="pragraph-explain">
+        Keep up the good work! For tips on maintaining a healthy weight, check out the food and diet and fitness
+        sections.
+      </p>
+      <p class="header-explain">
+        Overweight
+      </p>
+      <p class="pragraph-explain">
+        The best way to lose weight if you're overweight is through a combination of diet and exercise.
+      </p>
+      <p class="header-explain">
+        Obese
+      </p>
+      <p class="pragraph-explain">
+        The best way to lose weight if you're obese is through a combination of diet and exercise, and, in some cases,
+        medicines. See a GP for help and advice.
+      </p>
+    </div>
+  </section>
+  <section class="child-limi">
+    <div class="child">
+      <p class="header-explain">
+        Children's BMI
+      </p>
+      <p class="pragraph-explain">
+        For children and young people aged 2 to 18, the BMI calculator takes into account age and gender as well as
+        height and weight.
+        Overweight children are thought to be at increased risk of a variety of health conditions, and they're also more
+        likely to be overweight as adults.
+        The BMI calculator works out if a child or young person is:
+        underweight – on the 2nd centile or below
+        healthy weight – between the 2nd and 91st centiles
+        overweight – 91st centile or above
+        very overweight – 98th centile or above
+        A child's BMI is expressed as a "centile" to show how their BMI compares with children who took part in national
+        surveys.
+      </p>
+      <p class="header-explain">
+        Limitations of the BMI
+      </p>
+      <p class="pragraph-explain">
+        Your BMI can tell you if you're carrying too much weight, but it cannot tell if you're carrying too much fat.
+        The BMI cannot tell the difference between excess fat, muscle or bone.
+        The adult BMI does not take into account age, gender or muscle mass.
+        This means:
+        very muscular adults and athletes may be classed "overweight" or "obese" even though their body fat is low
+        adults who lose muscle as they get older may fall into the "healthy weight" range even though they may be
+        carrying excess fat
+        Pregnancy will also affect a woman's BMI result. Your BMI will go up as your weight increases. You should use
+        your pre-pregnancy weight when calculating your BMI.
+        Apart from these limitations, the BMI is a relatively straightforward and convenient way of assessing someone's
+        weight.
+      </p>
+    </div>
+  </section>
+
+  <!--Start footer-->
+  <footer id="contactus">
+    <div>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-envelope"></i></a>
+    </div>
+    <span>
+      &copy;KFS-university. All rights reserved.
+    </span>
+  </footer>
+  <!--End footer-->
+
+
+  <!-- Script part-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/javascript.js"></script>
+  <script src="js/homejs.js"></script>
+
+
+
+</body>
+
+</html>
